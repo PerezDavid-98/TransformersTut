@@ -1,0 +1,8 @@
+# ignore all the files inside the weights folder
+weights/
+
+# ignore the VSCode workspace file
+*.code-workspace
+
+# ignore the pychache
+__pycache__/
