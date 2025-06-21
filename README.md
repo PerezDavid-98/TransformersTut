@@ -11,7 +11,7 @@ Only a 10% of the original dataset was used for this reason.
 The project was developed inside a DevContainer using Docker and VisualStudio Code. The `.devcontainer` folder contains the `devcontainer.json` file, so opening the project with VSCode should prompt to reopen in container and build the container. (I used Docker Desktop to provide the Docker engine) 
 The image used was an NVIDIA image with Pytorch with GPU support. (It is a heavy image ~29 GBs so enough disk space is needed if used on a personal computer).
 
-The weights were not added to the repo because the are several GBs each.
+The weights were not added to the repo because they are several GBs each.
 
 ## Motivation
 After reading the paper where Transformers were introduced: [Attention Is All You Need](https://arxiv.org/abs/1706.03762), I wanted to improve my understanding of the Transformer architecture by 
